@@ -38,6 +38,7 @@ options:
               do not persist across reboots.
         required: false
         default: false
+        choices: [ "true", "false" ]
     state:
         description:
             - Create or delete Solaris/illumos etherstub.
